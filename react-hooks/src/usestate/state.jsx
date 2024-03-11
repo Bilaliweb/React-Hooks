@@ -17,16 +17,19 @@ function State(props) {
     setState(state-1)
   }
 
+  const onFirstNumber = state === 0
+  const onLastNumber = state === 10
+
   // To set limit 
-  if(state > 10 || state < 0){
-    setState(false)
-  }
+//   if(state > 10 || state < 0){
+//     setState(false)
+//   }
 
   return (
     <div id="number">
       <h2>Sample for changing state of number: {state}</h2>
-      <button id='btn' onClick={increaseNumber}>{props.button1}: {state}</button>
-      <button id='btn' onClick={decreaseNumber}>{props.button2}: {state}</button>
+      <button id='btn' onClick={increaseNumber} disabled={onLastNumber}>{props.button1}: {state}</button>
+      <button id='btn' onClick={decreaseNumber} disabled={onFirstNumber}>{props.button2}: {state}</button>
     </div>
   );
 }

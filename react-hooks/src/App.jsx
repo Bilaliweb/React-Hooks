@@ -22,7 +22,7 @@ function App() {
       {/**
        * Here names for buttons are set
        */}
-      <State button1="Increase" button2="Decrease"/>
+      <State button1="Click to Increase" button2="Click to Decrease"/>
     </>
   )
 }

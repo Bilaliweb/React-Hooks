@@ -1,10 +1,11 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import State from './usestate/state'
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import State from "./useState/state";
+import Effect from "./useEffect/effect";
+import EffectEvents from "./useEffect/effect2";
 
 function App() {
-
   return (
     <>
       <div>
@@ -16,15 +17,21 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <p>
-        Here is the very basic implementation of React.useState()
-      </p>
+      <p>Here is the very basic implementation of React.useState()</p>
       {/**
-       * Here names for buttons are set
-       */}
-      <State button1="Click to Increase" button2="Click to Decrease"/>
+       * Here value for props of Components are set
+      */}
+      <EffectEvents/>
+      <State button1="Click to Increase" button2="Click to Decrease" />
+      <Effect
+        button1="Effect to Increase"
+        button2="Effect to Decrease"
+        json1="Posts"
+        json2="Users"
+        json3="Comments"
+      />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

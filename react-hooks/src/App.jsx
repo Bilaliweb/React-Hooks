@@ -4,6 +4,7 @@ import "./App.css";
 import State from "./useState/state";
 import Effect from "./useEffect/effect";
 import EffectEvents from "./useEffect/effect2";
+import Memo from "./useMemo/memo";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         json2="Users"
         json3="Comments"
       />
+      <Memo/>
     </>
   );
 }

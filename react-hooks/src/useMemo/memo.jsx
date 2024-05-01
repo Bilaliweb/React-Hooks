@@ -22,7 +22,7 @@ export default function Memo() {
         })}
         <button onClick={addTodo}>Add Item</button>
       </div>
-      <hr />
+      <br />
       <div>
         <h2>Expensive Calculation: {calculation}</h2>
         <h3>Count: {count}</h3>

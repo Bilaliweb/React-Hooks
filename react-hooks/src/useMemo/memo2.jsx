@@ -49,6 +49,7 @@ export default function Memoise() {
   );
 }
 
+// Incredibly Slow Function
 const slowFunction = (num) => {
   console.log("Slowing down...", num);
   for (let i = 0; i <= 1000000000; i++) {}

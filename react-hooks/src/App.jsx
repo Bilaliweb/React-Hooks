@@ -7,6 +7,11 @@ import EffectEvents from "./useEffect/effect2";
 import Memo from "./useMemo/memo";
 import Memoise from "./useMemo/memo2";
 import Ref from "./useRef/useRef";
+import Component1 from "./useContext/useContext";
+import ComponentContext from "./useContext/useContext2";
+import UseContext from "./useContext/useContext3";
+import UseReducer from "./useReducer/useReducer";
+import UseCallBack from "./useCallBack/useCallBack";
 
 function App() {
   return (
@@ -38,7 +43,12 @@ function App() {
       <hr />
       {/* <h2>useMemo() implementation 2</h2> */}
       {/* <Memoise/> */}
-      <Ref/>
+      {/* <Ref/> */}
+      {/* <Component1 /> */}
+      {/* <ComponentContext /> */}
+      {/* <UseContext/> */}
+      {/* <UseReducer/> */}
+      <UseCallBack/>
     </>
   );
 }

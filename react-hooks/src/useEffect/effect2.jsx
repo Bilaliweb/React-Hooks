@@ -19,6 +19,7 @@ export default function EffectEvents() {
 
   return (
     <div>
+      <h1>Handling Events using Use Effect Hook</h1>
       <h2>We'll see the window's dynamic width here: {windowWidth}</h2>
     </div>
   );

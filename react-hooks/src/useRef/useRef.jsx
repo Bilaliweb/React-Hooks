@@ -37,6 +37,7 @@ export default function Ref(){
 
     return(
         <div>
+            <h1>Use Ref Hook</h1>
             <input ref={inputRef} value={text} type="text" onChange={handleChange}></input>
             <h2>My text is '{text}' which was used to be '{prevText.current}'</h2>
             <button onClick={handleFocus}>Focus</button>

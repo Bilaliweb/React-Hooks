@@ -2,11 +2,12 @@ import React, { useState, createContext, useContext } from "react";
 
 const UserContext = createContext();
 
-export default function ComponentContext() {
+export default function Context2() {
   const [user, setUser] = useState("Bilal Shahid");
 
   return (
     <div>
+      <h1>Use Context Hook</h1>
       <UserContext.Provider value={user}>
         <h1>Hi, {user}</h1>
         <Component2 />

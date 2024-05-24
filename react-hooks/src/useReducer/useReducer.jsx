@@ -45,6 +45,7 @@ export default function UseReducer() {
 
   return (
     <div>
+      <h1>Use Reducer Hook</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

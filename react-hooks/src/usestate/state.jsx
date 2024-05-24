@@ -27,6 +27,7 @@ function State(props) {
 
   return (
     <div id="number">
+      <h1>Use State Hook</h1>
       <h2>Sample for changing state of number: {state}</h2>
       <button id='btn' onClick={increaseNumber} disabled={onLastNumber}>{props.button1}: {state}</button>
       <button id='btn' onClick={decreaseNumber} disabled={onFirstNumber}>{props.button2}: {state}</button>

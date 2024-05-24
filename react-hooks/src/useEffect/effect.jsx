@@ -55,6 +55,7 @@ function Effect(props) {
 
   return (
     <div id="number">
+      <h1>Use Effect Hook</h1>
       <h2>Sample for changing state of number with some effect: {state}</h2>
       <button id="btn" onClick={increaseNumber} disabled={onLastNumber}>
         {props.button1}: {state}

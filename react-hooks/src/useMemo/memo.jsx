@@ -16,6 +16,7 @@ export default function Memo() {
   return (
     <>
       <div>
+        <h1>Use Memo Hook</h1>
         <h2>My Todos</h2>
         {todos.map((item, index) => {
           return <p key={index}>{item}</p>;

@@ -13,6 +13,7 @@ export default function UseContext(){
 
     return(
         <div>
+            <h1>Use Context Hook</h1>
             <ThemeContext.Provider value={darkTheme}>
                 <button onClick={toggleTheme}>Toggle Theme</button>
                 <FunctionComponent/>

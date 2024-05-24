@@ -39,6 +39,7 @@ export default function Memoise() {
 
   return (
     <div>
+      <h1>Memoisation by using Use Memo Hook</h1>
       <input type="number" value={number} onChange={handleChange}></input>
       <br />
       <button onClick={handleClick} style={{ marginTop: 4 }}>

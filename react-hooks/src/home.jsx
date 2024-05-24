@@ -4,6 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Link, Outlet } from "react-router-dom";
 
+/**
+ * I've used Outlet component as I wanted to have specific navbar which I've implemented below in the middle of the page in each component.
+ */
 export default function Home() {
   return (
     <>

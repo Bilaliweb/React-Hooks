@@ -40,7 +40,7 @@ export default function Ref(){
             <h1>Use Ref Hook</h1>
             <input ref={inputRef} value={text} type="text" onChange={handleChange}></input>
             <h2>My text is '{text}' which was used to be '{prevText.current}'</h2>
-            <button onClick={handleFocus}>Focus</button>
+            <button className="button" onClick={handleFocus}>Focus</button>
             <h2>Component is rendered {count.current} times</h2>
         </div>
     )

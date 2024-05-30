@@ -21,13 +21,13 @@ export default function Memo() {
         {todos.map((item, index) => {
           return <p key={index}>{item}</p>;
         })}
-        <button onClick={addTodo}>Add Item</button>
+        <button className="button" onClick={addTodo}>Add Item</button>
       </div>
       <br />
       <div>
         <h2>Expensive Calculation: {calculation}</h2>
         <h3>Count: {count}</h3>
-        <button onClick={increment}>Add Count</button>
+        <button className="button" onClick={increment}>Add Count</button>
       </div>
     </>
   );

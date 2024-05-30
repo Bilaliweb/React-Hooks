@@ -42,7 +42,7 @@ export default function Memoise() {
       <h1>Memoisation by using Use Memo Hook</h1>
       <input type="number" value={number} onChange={handleChange}></input>
       <br />
-      <button onClick={handleClick} style={{ marginTop: 4 }}>
+      <button className="button" onClick={handleClick} style={{ marginTop: 4 }}>
         Change Theme
       </button>
       <div style={themeStyles}>{doubleNumber}</div>

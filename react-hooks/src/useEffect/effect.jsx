@@ -57,22 +57,22 @@ function Effect(props) {
     <div id="number">
       <h1>Use Effect Hook</h1>
       <h2>Sample for changing state of number with some effect: {state}</h2>
-      <button id="btn" onClick={increaseNumber} disabled={onLastNumber}>
+      <button className="button" onClick={increaseNumber} disabled={onLastNumber}>
         {props.button1}: {state}
       </button>
-      <button id="btn" onClick={decreaseNumber} disabled={onFirstNumber}>
+      <button className="button" onClick={decreaseNumber} disabled={onFirstNumber}>
         {props.button2}: {state}
       </button>
       <br />
       <div style={{ marginTop: 10 }}>
         <h2>Fetching API's from JSON Placeholder</h2>
-        <button id="btn1" onClick={handlePost}>
+        <button className="button" onClick={handlePost}>
           {props.json1}
         </button>
-        <button id="btn2" onClick={handleUsers}>
+        <button className="button" onClick={handleUsers}>
           {props.json2}
         </button>
-        <button id="btn3" onClick={handleComments}>
+        <button className="button" onClick={handleComments}>
           {props.json3}
         </button>
 
